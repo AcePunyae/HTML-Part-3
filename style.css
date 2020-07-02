@@ -1,0 +1,56 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+background-color: white;
+
+
+}
+
+
+.header h1{
+    border:solid;
+    border:black;
+    color:darkblue;
+    margin-left: 10px;
+}
+
+.menu1{
+    text-justify:center ;
+    background-color:darkcyan;
+margin-bottom:30px;
+    padding: 10px;
+    }
+
+.Projects{
+    background-color:darkcyan;
+     display:flex;
+     justify-content: space-evenly;
+     text-align: right;
+     flex-direction: row;
+     text-size-adjust:80;
+     padding:50px
+     
+      
+    
+}
+.Projects:hover img{
+opacity: 0.3;
+
+}
+
+body{
+    background-color:aqua;
+}
+
+a:visited{
+    color:black
+}
+
+a:link{
+    color:red
+}
+
+ol.List{
+    list-style-type: upper-roman;
+    font-weight: bold;
+}
